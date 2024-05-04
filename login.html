@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="nav">
+			<img src="images/kilabot.png" id="logo1">
+			<div class="nav-menu">
+				<ul>
+					<li><a href="#" class="link active">Login</a></li>
+					<li><a href="register.html" class="link">Register</a></li>
+					<li><a href="#" class="link">Services</a></li>
+					<li><a href="#" class="link">About</a></li>
+				</ul>
+			</div>
+		</nav>
+<!-----------------------------------------Form----------------------------------->
+		<div class="form-box">
+				<!------------------Registration Form----------------------------->
+			<div class="login-container" id="login">
+				<div>
+					<header>Login</header> 
+				</div>
+				<div class="input-box">
+					<input type="text" class="input-field" placeholder="Username or Email">
+				</div><div class="input-box">
+					<input type="password" class="input-field" placeholder="Password">
+				</div>
+				<div class="def-text">
+					<input type="checkbox" id="login-check">
+					<label for="login-check">Remember Me</label>
+				</div>
+				<div class="input-box">
+					<a href="bahay.html"><b></b><input type="submit" class="submit" value="Log In"></b></a>
+				</div>
+				<div class="def-text">
+					<label><a href="#">Forgot password</a></label>
+				</div>
+				
+				<div class="bottom">
+					<span>Don't have an account?<a href="register.html" onclick="register()">Sign Up</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
