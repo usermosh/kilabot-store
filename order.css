@@ -11,7 +11,7 @@
     font-family: 'Calibri', sans-serif;
   }
   .top-nav {
-    background-color: rgb(102, 102, 102);
+    background-color: #333;
     display: flex;
     height: 60px;
     justify-content: left;
@@ -21,6 +21,7 @@
   
   .nav-child {
     margin: 0px 10px;
+    font-family: 'Black Ops One';font-size: 18px;
   }
   
   .nav-child:hover {
@@ -70,8 +71,8 @@
 #cart {
     margin-left: 10px;
     margin-right: 28px;
-    width:47px;
-    height:47px;
+    width:30px;
+    height:30px;
 }
 .pro {
   width: 300px;
@@ -95,7 +96,7 @@
 }
 .parent-con {
   padding-top: 10px;
-  background-image: url(images/bas.jpg)
+  background-image: url(images/bg54.jpg)
 }
 .container {
   width: 60%;
@@ -195,12 +196,4 @@ p {
   background-color: #fff;
   color: black;
   transition: all .7s ease;
-}
-footer {
-  text-align: center;
-  background: #722e2e;
-  color: #fff;
-  padding: 20px 0;
-  bottom: 0;
-  width: 100%;
 }

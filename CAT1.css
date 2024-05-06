@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #333;
-    background-image: url(images/pistolbg.jpg);
+    background-image: url(images/bg54.jpg);
     background-size: 100% 100%;
 }
 .navbar {
@@ -108,7 +108,7 @@ nav ul li a {
     height: 400px;
     text-align: center;
     padding: 100px 0;
-    background-image: url(images/ramboo.gif);
+    background-image: url(images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -120,6 +120,11 @@ h1 {
 p{
     color: white;
     font-size: 20px;
+}
+.topPro {
+    background-image: url(images/bg54.jpg);
+    background-size: 100% 100%;
+    background-color: #333;
 }
 .topPro, .category{
     width: 100%;
@@ -214,6 +219,7 @@ h2 {
     font-size: 15px;
 }
 footer {
+    background-color: #333;
     text-align: center;
     height: 100px;
     padding-top: 35px;

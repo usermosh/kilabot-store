@@ -1,3 +1,9 @@
+:root {
+    --dgrey:#333;
+    --white: #fff;
+    --lgrey: #555;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +14,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url(images/bg3.jpg);
+    background-image: url(images/bg55.jpg);
     background-size: 100% 100%;
 }
 .navbar {
@@ -128,7 +134,7 @@ nav ul li a {
     height: 400px;
     text-align: center;
     padding: 100px 0;
-    background-image: url(images/ramboo.gif);
+    background-image: url(images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -189,7 +195,7 @@ p{
 }
 .featured {
     text-align: center;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 .bttn:hover {
     background: rgb(255, 255, 255, 0.3);
@@ -260,4 +266,7 @@ footer {
     padding-top: 35px;
     font-size: 50px;
     background-color: #585858;
-} 
+}
+@media only screen and (max-width: 500px) {
+    
+}

@@ -9,10 +9,10 @@ body {
   margin: 0;
   background-color: #313131;
   font-family: 'Calibri', sans-serif;
-  background-image: url(images/bas.jpg)
+  background-image: url(images/bg54.jpg)
 }
 .top-nav {
-  background-color: rgb(102, 102, 102);
+  background-color: #333;
   display: flex;
   height: auto;
   justify-content: left;
@@ -29,9 +29,9 @@ body {
 }
 
 .sec-nav{
-  background-color: rgb(85, 71, 71);
+  background-color: #333;
   display: flex;
-  height: 120px;
+  height: auto;
   padding: 40px;
   justify-content: space-evenly;
   background-image: url(images/bodybg.jpg);
@@ -41,7 +41,7 @@ body {
   margin-left: 10px;
   display: flex;
   color: black;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Black Ops One';font-size: 50px;
 }
 
@@ -56,6 +56,12 @@ body {
 }
 .search {
   display: flex;
+  margin-left: 310px;
+}
+#cart {
+  margin: auto 2px;
+  width: 60px;
+  height: 60px;
 }
 .body {
   background-color: rgb(163, 163, 163);
@@ -64,7 +70,6 @@ body {
   height: inherit;
   width: 80%;
   font-size: 20px;
-  opacity: .8 ;
 }
 .body-con {
   padding: 20px;
@@ -79,7 +84,7 @@ body {
   height: 20px;
 }
 .container {
-  height: 70px;
+  height: auto;
   display: flex;
   margin: 0px 20px;
   background-color: rgb(201, 199, 199);
@@ -163,8 +168,10 @@ body {
   color: #fff;
   transition: all .3s ease;
 }
-
-
-
-
-
+footer {
+  text-align: center;
+  height: 130px;
+  padding-top: 5px;
+  font-size: 40px;
+  background-color: #313131;
+}
