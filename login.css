@@ -1,5 +1,6 @@
 * {
-    font-family: 'Black Ops One';font-size: 22px;
+    font-family: 'Black Ops One';
+    font-size: 22px;
 }
 body {
     margin: 0px;
@@ -31,13 +32,9 @@ body {
     font-size: 30px;
     font-weight: 500;
 }
-#logo1 {
+.logo {
     width: 300px;
-}
-img {
-    width: 200px;
     height: 200px;
-    margin: 25px;
 }
 .nav-menu ul {
     display: flex;
@@ -237,6 +234,10 @@ header {
     .register-container .two-forms{
         flex-direction: column;
         gap: 0;
+    }
+    .logo {
+        width: 200px;
+        height: 120px;
     }
     
 }
