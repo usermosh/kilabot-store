@@ -22,6 +22,7 @@ body {
     background: #333;
     color: #fff;
     padding: 20px;
+    height: auto;
 }
 nav ul {
     list-style: none;
@@ -95,8 +96,11 @@ nav ul li a {
     transition: .2s ease;
   }
 #search {
-    width: 25px;
-    height: inherit;
+    width: 35px;
+    height: 40px;
+}
+.sera {
+    float: right;
 }
 .dropdown {
     position: relative;
